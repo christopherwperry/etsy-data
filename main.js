@@ -34,7 +34,7 @@ function question2 () {
 function question3 () {
   for ( let i = 0; i < data.length; i++){
     if(data[i].currency_code === "GBP"){
-      console.log(data[i].title + " costs " + data[i].price + " pound.");
+      console.log(data[i].title + " costs " + data[i].price + " pounds.");
     }
   }
 }
@@ -57,7 +57,7 @@ function question4 () {
 function question5 () {
   for( let i = 0; i < data.length; i++){
     if(data[i].materials.length > 7){
-      console.log(data[i].title + ":\n- " +  data[i].materials.join('\n- '));
+      console.log(data[i].title + " has " + data[i].materials.length + " materials:\n- " +  data[i].materials.join('\n- '));
     }
   }
 }
