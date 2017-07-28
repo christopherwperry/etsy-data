@@ -12,7 +12,7 @@ function question1 () {
   let average = 0;
   for ( let i = 0; i < data.length; i++ ){
     sum =+ sum + data[i].price;
-    average = sum/25;
+    average = sum/data.length;
   }
   console.log("The average price is $" + average.toPrecision(4));
 }
